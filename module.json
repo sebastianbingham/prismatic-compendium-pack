@@ -1,0 +1,69 @@
+{
+  "id": "prismatic-compendium-pack",
+  "title": "Prismatic Compendium Pack",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-dungeon-masters-guide",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-enhanced-journal",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Sebastian Bingham",
+      "email": "https://github.com/sebastianbingham",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "species",
+      "label": "Species",
+      "path": "packs/species",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/sebastianbingham/prismatic-compendium-pack",
+  "download": "https://github.com/sebastianbingham/prismatic-compendium-pack/archive/1.0.0.zip",
+  "manifest": "https://github.com/sebastianbingham/prismatic-compendium-pack/module.json"
+}
