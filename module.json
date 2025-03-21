@@ -1,7 +1,7 @@
 {
   "id": "prismatic-compendium-pack",
   "title": "Prismatic Compendium Pack",
-  "version": "1.0",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -64,6 +64,6 @@
     }
   ],
   "url": "https://github.com/sebastianbingham/prismatic-compendium-pack",
-  "download": "https://github.com/sebastianbingham/prismatic-compendium-pack/archive/1.0.zip",
+  "download": "https://github.com/sebastianbingham/prismatic-compendium-pack/archive/1.0.0.zip",
   "manifest": "https://github.com/sebastianbingham/prismatic-compendium-pack/releases/latest/download/module.json"
 }
