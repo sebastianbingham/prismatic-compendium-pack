@@ -1,7 +1,7 @@
 {
   "id": "prismatic-compendium-pack",
   "title": "Prismatic Compendium Pack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -71,6 +71,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "basic-shops",
+      "label": "Basic Shops",
+      "path": "packs/basic-shops",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -80,12 +91,13 @@
       "sorting": "m",
       "packs": [
         "species",
+        "basic-shops",
         "roll-tables"
       ],
       "folders": []
     }
   ],
   "url": "https://github.com/sebastianbingham/prismatic-compendium-pack",
-  "download": "https://github.com/sebastianbingham/prismatic-compendium-pack/archive/1.0.1.zip",
+  "download": "https://github.com/sebastianbingham/prismatic-compendium-pack/archive/1.0.2.zip",
   "manifest": "https://github.com/sebastianbingham/prismatic-compendium-pack/releases/latest/download/module.json"
 }
