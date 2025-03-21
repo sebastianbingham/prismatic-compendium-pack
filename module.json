@@ -1,7 +1,7 @@
 {
   "id": "prismatic-compendium-pack",
   "title": "Prismatic Compendium Pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -15,6 +15,16 @@
       },
       {
         "id": "dnd-dungeon-masters-guide",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-monster-manual",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-tashas-cauldron",
         "type": "module",
         "compatibility": {}
       },
@@ -63,7 +73,19 @@
       }
     }
   ],
+  "packFolders": [
+    {
+      "name": "Prismatic Compendiums",
+      "color": "#1e72cc",
+      "sorting": "m",
+      "packs": [
+        "species",
+        "roll-tables"
+      ],
+      "folders": []
+    }
+  ],
   "url": "https://github.com/sebastianbingham/prismatic-compendium-pack",
-  "download": "https://github.com/sebastianbingham/prismatic-compendium-pack/archive/1.0.0.zip",
+  "download": "https://github.com/sebastianbingham/prismatic-compendium-pack/archive/1.0.1.zip",
   "manifest": "https://github.com/sebastianbingham/prismatic-compendium-pack/releases/latest/download/module.json"
 }
